@@ -1,0 +1,40 @@
+name: breaking
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  dio: ^5.5.0+1
+  flutter_bloc: ^8.1.6
+  flutter_offline: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icons8-rick-sanchez-200.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+
+  fonts:
+    - family: WubbaLubbaDubDub
+      fonts:
+        - asset: assets/fonts/WubbaLubbaDubDub.ttf
